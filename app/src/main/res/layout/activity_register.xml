@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.hachii.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ae7110">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/flagbutt2"
+            android:hint="@string/name"
+            android:inputType="textCapSentences"
+            android:maxLength="22"
+            android:padding="10dp"
+
+            android:textColor="@color/blackforeground"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/flagbutt2"
+            android:fontFamily="s"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:maxLength="15"
+            android:padding="10dp"
+            android:textColor="@color/blackforeground"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/flagbutt2"
+
+            android:hint="password"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:padding="10dp"
+            android:textColor="@color/blackforeground"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txtConfirmPassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/flagbutt2"
+
+            android:hint="@string/confirmpassword"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:padding="10dp"
+            android:textColor="@color/blackforeground"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnRegisterR"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/greenbutt"
+            android:text="@string/register"
+            android:textAllCaps="false"
+
+            android:textColor="@color/whiteforeground"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <!--<TextView-->
+    <!--android:text="username"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:layout_marginLeft="70dp"-->
+    <!--android:layout_width="66dp"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<EditText-->
+
+    <!--android:layout_marginLeft="70dp"-->
+    <!--android:layout_width="250dp"-->
+    <!--android:layout_height="60dp" />-->
+    <!--<TextView-->
+    <!--android:text="Password"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:layout_marginLeft="70dp"-->
+    <!--android:layout_width="66dp"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<EditText-->
+
+    <!--android:layout_marginLeft="70dp"-->
+    <!--android:layout_width="250dp"-->
+    <!--android:layout_height="60dp" />-->
+    <!--<TextView-->
+    <!--android:text="Name"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:layout_marginLeft="70dp"-->
+    <!--android:layout_width="66dp"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<EditText-->
+
+    <!--android:layout_marginLeft="70dp"-->
+    <!--android:layout_width="250dp"-->
+    <!--android:layout_height="60dp" />-->
+    <!--<Button-->
+    <!--android:text="Sign in"-->
+    <!--android:layout_marginLeft="145dp"-->
+    <!--android:layout_marginTop="60dp"-->
+    <!--android:layout_width="76dp"-->
+    <!--android:layout_height="50dp" />-->
+
+</LinearLayout>
